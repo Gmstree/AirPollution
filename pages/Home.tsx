@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import PaperCard from '../components/PaperCard';
 import LiveDashboard from '../components/LiveDashboard';
 import ProjectSurvey from '../components/ProjectSurvey';
-import BlockDiagram from '../components/BlockDiagram';
+import { BlockDiagram } from '../components/BlockDiagram';
 import GanttChart from '../components/GanttChart';
 import { COMPONENT_LIST, PROJECT_TITLE, REFERENCES } from '../constants';
 import { Cpu, Target, Heart, Map as MapIcon, Info, ExternalLink } from 'lucide-react';
