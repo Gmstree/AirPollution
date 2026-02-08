@@ -1,7 +1,7 @@
 import React from 'react';
-import { Database, Cpu, Activity, Wifi, Cloud, Smartphone, Monitor, ShieldCheck, ArrowRight, Radio } from 'lucide-react';
+import { Database, Cpu, Radio } from 'lucide-react';
 
-const BlockDiagram: React.FC = () => {
+export const BlockDiagram: React.FC = () => {
   return (
     <div className="w-full bg-slate-50 dark:bg-slate-900 p-4 md:p-8 rounded-2xl border border-gray-200 dark:border-slate-800 shadow-xl relative overflow-hidden">
         
@@ -15,7 +15,6 @@ const BlockDiagram: React.FC = () => {
                       </div>
                       <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-2">IoT Sensor Network</h3>
                       
-                      {/* ORGANIZED TEXT BLOCK */}
                       <div className="text-gray-600 dark:text-gray-400 text-sm leading-normal md:leading-relaxed mb-4 text-justify">
                           <p className="mb-2">The architecture utilizes a multi-node system for robust environmental monitoring:</p>
                           <ul className="list-disc pl-5 space-y-1">
@@ -27,7 +26,6 @@ const BlockDiagram: React.FC = () => {
 
                       <div className="flex gap-4 text-xs font-mono text-gray-500 border-t border-gray-100 dark:border-slate-700 pt-4">
                           <span className="flex items-center gap-1"><Radio size={12} /> ZigBee / WiFi</span>
-                          <span className="flex items-center gap-1"><Cloud size={12} /> Cloud Sync</span>
                       </div>
                  </div>
                  <div className="flex-1 w-full relative group">
@@ -49,7 +47,6 @@ const BlockDiagram: React.FC = () => {
                       </div>
                       <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-2">AI-Driven Data Calibration</h3>
                       
-                      {/* COMPACT TEXT FIX */}
                       <p className="text-gray-600 dark:text-gray-400 text-sm leading-normal md:leading-relaxed mb-4 text-justify">
                           Raw sensor data often contains noise and drift. Our system implements a <strong>Machine Learning Pipeline</strong> (SVR/Random Forest) to process this data. The diagram shows the flow from Data Collection → Pre-processing → Feature Extraction → Prediction Model, ensuring high-accuracy air quality indices.
                       </p>
@@ -79,5 +76,3 @@ const BlockDiagram: React.FC = () => {
     </div>
   );
 };
-
-export default BlockDiagram;
