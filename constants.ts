@@ -1,6 +1,6 @@
 import { TeamMember, Reference } from './types';
 
-export const PROJECT_TITLE = "LoT Smart Air Pollution Awareness Monitoring Detection System";
+export const PROJECT_TITLE = "IoT Smart Air Pollution Awareness Monitoring Detection System";
 
 export const SURVEY_DATA = [
   { name: 'Cultural Habits', value: 35, color: '#1a202c' }, // uni-900
