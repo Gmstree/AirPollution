@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 import Monitor from './pages/Monitor';
+import Hardware from './pages/Hardware';
+import ProposalReview from './pages/ProposalReview';
 
 // Scroll to top helper
 const ScrollToTop = () => {
@@ -116,6 +118,8 @@ const App: React.FC = () => {
             <main className="flex-grow">
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/proposal-review" element={<ProposalReview />} />
+                <Route path="/hardware" element={<Hardware />} />
                 <Route path="/monitor" element={<Monitor />} />
                 <Route path="/team" element={<Team />} />
                 <Route path="/team/:memberId" element={<Team />} />
