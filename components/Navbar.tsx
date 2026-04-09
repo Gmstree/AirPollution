@@ -12,6 +12,8 @@ const Navbar: React.FC<NavbarProps> = ({ isDark, toggleTheme }) => {
   
   const navItems = [
     { label: 'Overview', path: '/' },
+    { label: 'Proposal & Review', path: '/proposal-review' },
+    { label: 'Hardware', path: '/hardware' },
     { label: 'Air Monitor', path: '/monitor' },
     { label: 'Team', path: '/team' },
     { label: 'Contact', path: '/contact' },
