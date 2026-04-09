@@ -1,6 +1,6 @@
 import { TeamMember, Reference } from './types';
 
-export const PROJECT_TITLE = "IoT Smart Air Pollution Awareness Monitoring Detection System";
+export const PROJECT_TITLE = "IOT Smart Air Pollution Awareness Monitoring Detection System";
 
 export const SURVEY_DATA = [
   { name: 'Cultural Habits', value: 35, color: '#1a202c' }, // uni-900
@@ -33,10 +33,10 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: "Co-leader",
     email: "2311522@iub.edu.bd",
     bio: "Co-leader focusing on software algorithms, data processing pipelines, and ensuring seamless integration between hardware and cloud modules.",
-    image: "https://avatars.githubusercontent.com/u/221358091?v=4",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQGmrVz5YYjWUw/profile-displayphoto-shrink_800_800/B56ZXZLHP.HoAc-/0/1743105325255?e=1772064000&v=beta&t=FgS7rg8tJivvh03ehLgtMupT8nPvEndPh5cUK53KDJE",
     socials: {
       linkedin: "https://www.linkedin.com/in/projjal-das-a17a3632a",
-      github: "https://github.com/sommya-a11y",
+      github: "https://github.com/projjaldas",
       email: "mailto:2311522@iub.edu.bd"
     },
     skills: ["Software Integration", "Algorithms", "Management"]
