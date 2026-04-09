@@ -159,4 +159,5 @@ const Hardware: React.FC = () => {
   );
 };
 
+
 export default Hardware;
