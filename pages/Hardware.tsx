@@ -147,7 +147,7 @@ const Hardware: React.FC = () => {
         </p>
         <div className="rounded-xl overflow-hidden bg-black shadow-2xl border border-gray-200 dark:border-slate-700 aspect-video relative max-w-4xl mx-auto">
           <iframe 
-            src="https://drive.google.com/file/d/1Pr_pwdSo48MzqWvKI4cJzFmsT9wPZl-O/preview" 
+            src="https://drive.google.com/file/d/1AhnLADV7mQ4N8x3-EUmnvF-4WVdTS4pV/preview" 
             title="Demo Video"
             className="absolute top-0 left-0 w-full h-full border-0"
             allow="autoplay"
